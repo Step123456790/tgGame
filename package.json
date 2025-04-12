@@ -1,0 +1,31 @@
+{
+  "name": "tggame",
+  "version": "1.0.0",
+  "description": "bot with game in telegram for captain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Step123456790/tgGame.git"
+  },
+  "keywords": [
+    "game",
+    "tg"
+  ],
+  "author": "StepSinNik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Step123456790/tgGame/issues"
+  },
+  "homepage": "https://github.com/Step123456790/tgGame#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9"
+  }
+}
